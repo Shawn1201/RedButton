@@ -22,5 +22,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios 
   spec.source       = { :git => "https://github.com/Shawn1201/RedButton.git", :tag => "#{spec.version}" }
   spec.source_files  = "RedButton", "RedButton/**/*.{h,m}"
+  
 
 end
