@@ -9,10 +9,9 @@
 
 @implementation RedButton
 
--(id)init {
-    self = [super init];
+-(id)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:(CGRect)frame];
     if (self) {
-        
         self.backgroundColor = [UIColor redColor];
     }
     return self;
